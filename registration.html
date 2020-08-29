@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML ASSIGNMENT</title>
+	<style>
+		ul{
+			list-style-type: none;
+			margin:0;
+			padding:0;
+			overflow: hidden;
+			background-color: #3b3b3b;  
+		}
+		li{
+			float:left;
+		}
+		li a{
+			display:block;
+			color: white;
+			padding:15px 18px;
+			text-decoration: none;
+		}
+		li a:hover {
+			background-color: green;
+		}
+			label {
+				width: 180px;
+				display: inline-block;
+			}
+			div{
+				color: #3b3b3b;
+			letter-spacing: 1px;
+			line-height: 180%;
+			}
+
+	</style>
+</head>
+<body>
+<a href = "https://www.iiit.ac.in/">
+  <img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIIT Hyderabad" height="80" width="160" ></a>
+  <a href ="https://serc.iiit.ac.in/rdip" style= float:right > <h2>RDIP</h2></a>
+  
+<ul>
+	<li><a href="homepage.html">Home</a></li>
+	<li><a href="registration.html">Registration Form</a></li>
+</ul>
+<p><br></p>
+<div>
+<form action="file:///C:/Users/DEBMALYA%20HALDER/OneDrive/Desktop/rdip/details.html" method="get" target="_blank">
+	<label for="First Name:"><b>First Name:</b></label>
+	<input type="text" id="fname" name="fname" required><br><br>
+	<label for="E-mail:"><b>E-mail:</b></label>
+	<input type="email" id="fname" name="fname" required><br><br>
+	<label for="Phone no.:"><b>Phone no.:</b></label>
+	<input type="tel" id="fname" name="fname" required><br><br>
+	<label for="Gender:"><b>Gender:</b></label>
+	<input type="radio" id="Male" name="Gender" value="Male" >
+	<label for="Male"><b>Male</b></label>
+	<input type="radio" id="Female" name="Gender" value="Female" >
+	<label for="Female"><b>Female</b></label>
+	<input type="radio" id="Other" name="Gender" value="Other" >
+	<label for="Other"><b>Other</b></label><br><br>
+	<label for="Reason for RDIP:"><b>Reason for RDIP:</b></label>
+	<input type="checkbox" name="Reason for RDIP" id="Reason for RDIP" Value="HTML" required>
+	<label for="Reason for RDIP"><b>HTML</b></label>
+	<input type="checkbox" name="Reason for RDIP" id="Reason for RDIP" Value="CSS" required>
+	<label for="Reason for RDIP"><b>CSS</b></label>
+	<input type="checkbox" name="Reason for RDIP" id="Reason for RDIP" Value="JavaScript" required>
+	<label for="Reason for RDIP"><b>JavaScript</b></label><br><br>
+	<label for="College:"><b>College: </b></label>
+	<input type="text" id="fname" name="fname" required><br><br>
+	<input type="checkbox" name="Agreement" id="Agreement" Value="Aceptance" required>
+	<label for="Agreement"><strong>I declare above details given by me are true</strong></label><br>
+	<input type="submit" name="Submit" style="margin-right: 200px">
+	<input type="reset" name="Reset">
+
+</form>
+</div>
+</body>
+</html>
